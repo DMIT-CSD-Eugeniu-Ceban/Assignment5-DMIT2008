@@ -1,6 +1,6 @@
-# :writing_hand: <span style="color: lightcoral;"> **Assignment 4**</span>  <span style="color: turquoise;">*(React Firebase Login Flow)*</span>
- :calendar: 8th, April 2022 <br/>
- :clock11: 11:59pm <br/>
+# :writing_hand: <span style="color: lightcoral;"> **Assignment 5**</span>  <span style="color: turquoise;">*(Next.js Storefront)*</span>
+ :calendar: 22th, April 2022 <br/>
+ :clock11: 15:59pm <br/>
  :package: <span style="color: red; font-weight:700">20%</span>
 
   - [General Info about project](#general-info)
@@ -11,7 +11,7 @@
 
 ##  :books: <span style="color:FFF3E0; font-weight:500" id="general-info">General Info</span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;This project aims to create in &nbsp; <span style="color: lightseagreen; font-weight:600; font-size: 1.2rem"> <img src="https://media4.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif?cid=ecf05e47g3cyt5km83vjjzpek9yemwmsw1uw6d14u4pdtj73&rid=giphy.gif&ct=s" width="19" title="react logo"> React &nbsp;</span> an online footwear dashboard store for men, women, and children. The name of this store is <span style="color:#EF5350; font-weight:600"><img src="./static/../src/static/logo.png" width="20" title="EC logo"> *"Shoes EC"*</span>. The structure of the web page consists of three essential elements, the navigation bar, the side bar, and the content of the page. These elements help to make it easier to control the processes performed by the user. Active links and buttons in this project that are active and can be accessed are `"Sign In"`,`"Sign Up"`,`"Add New Product"`,`"View All Products"`, and `"sign out"` which returns the user to the login page.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;This project aims to create in &nbsp; <span style="color: lightseagreen; font-weight:600; font-size: 1.2rem"> <img src="https://media4.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif?cid=ecf05e47g3cyt5km83vjjzpek9yemwmsw1uw6d14u4pdtj73&rid=giphy.gif&ct=s" width="19" title="react logo"> React &nbsp;</span> an online footwear dashboard store for men, women, and children. The name of this store is <span style="color:#EF5350; font-weight:600"><img src="./static/../static/logo.png" width="20" title="EC logo"> *"Shoes EC"*</span>. The structure of the web page consists of three essential elements, the navigation bar, the side bar, and the content of the page. These elements help to make it easier to control the processes performed by the user. Active links and buttons in this project that are active and can be accessed are `"Sign In"`,`"Sign Up"`,`"Add New Product"`,`"View All Products"`, and `"sign out"` which returns the user to the login page.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;This project consists of 3 active pages that allow the user to navigate only with the access of the personal email and password.
 One important element of this project is `"Page 404"`, which shows the user that the request was not accessible. Finally, the main goal of this project is to implement <span style="color:#14D8D7; font-weight:700">Links</span> and <span style="color:#14D8D7; font-weight:700">Protected Routes</span> paths between pages.<br/>
 This project is launched on &nbsp; <span style="color: lightseagreen; font-weight:600; font-size: 1.2rem"> <img src="https://cdn.iconscout.com/icon/free/png-256/netlify-3628945-3030170.png" width="19" title="react logo"> *Netlify* &nbsp;</span>, uses the &nbsp; <span style="color: #FF9C0B; font-weight:600; font-size: 1.2rem"> <img src="https://www.gameartguppy.com/wp-content/uploads/2019/04/mascot_firebase-logo.png" width="27" title="react logo">*Firebase* &nbsp;</span> client authentication system, and the repository can be found on the *Github* link.<br/>
