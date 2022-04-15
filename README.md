@@ -11,10 +11,10 @@
 
 ##  :books: <span style="color:FFF3E0; font-weight:500" id="general-info">General Info</span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;This project aims to create in &nbsp; <span style="color: lightseagreen; font-weight:600; font-size: 1.2rem"> <img src="https://media4.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif?cid=ecf05e47g3cyt5km83vjjzpek9yemwmsw1uw6d14u4pdtj73&rid=giphy.gif&ct=s" width="19" title="react logo"> React &nbsp;</span> an online footwear dashboard store for men, women, and children. The name of this store is <span style="color:#EF5350; font-weight:600"><img src="./static/../static/logo.png" width="20" title="EC logo"> *"Shoes EC"*</span>. The structure of the web page consists of three essential elements, the navigation bar, the side bar, and the content of the page. These elements help to make it easier to control the processes performed by the user. Active links and buttons in this project that are active and can be accessed are `"Sign In"`,`"Sign Up"`,`"Add New Product"`,`"View All Products"`, and `"sign out"` which returns the user to the login page.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;This project consists of 3 active pages that allow the user to navigate only with the access of the personal email and password.
-One important element of this project is `"Page 404"`, which shows the user that the request was not accessible. Finally, the main goal of this project is to implement <span style="color:#14D8D7; font-weight:700">Links</span> and <span style="color:#14D8D7; font-weight:700">Protected Routes</span> paths between pages.<br/>
-This project is launched on &nbsp; <span style="color: lightseagreen; font-weight:600; font-size: 1.2rem"> <img src="https://cdn.iconscout.com/icon/free/png-256/netlify-3628945-3030170.png" width="19" title="react logo"> *Netlify* &nbsp;</span>, uses the &nbsp; <span style="color: #FF9C0B; font-weight:600; font-size: 1.2rem"> <img src="https://www.gameartguppy.com/wp-content/uploads/2019/04/mascot_firebase-logo.png" width="27" title="react logo">*Firebase* &nbsp;</span> client authentication system, and the repository can be found on the *Github* link.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;This project aims to create in &nbsp; <span style="color: green; font-weight:600; font-size: 1.2rem"> <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" width="20" title="react logo"> *Node.Js* &nbsp;</span> an online footwear dashboard store for men, women, and children. The name of this store is <span style="color:#EF5350; font-weight:600"><img src="./static/../static/logo.png" width="20" title="EC logo"> *"Shoes EC"*</span>. The purpose of this project is to create storefront page which will contain a minimum of 3 products that my company wishes to sell.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;More than that, I will use the REST API provided by the
+Real-Time Database to connect my product data to my store. For my store, I used &nbsp;<img src="https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png" width="20" title="react logo"></span>&nbsp; which provided me with a full stack (client/server) react framework. I used in this project **Stripe.js** which is a JavaScript library for building my payment flows. Stripe Checkout to take payments for our products.<br/>
+This project is launched on &nbsp; <span style="color: lightseagreen; font-weight:600; font-size: 1.2rem"> <img src="https://logovtor.com/wp-content/uploads/2020/10/vercel-inc-logo-vector.png" width="35" title="react logo"> </span>, uses the &nbsp; <span style="color: #FF9C0B; font-weight:600; font-size: 1.2rem"> <img src="https://www.gameartguppy.com/wp-content/uploads/2019/04/mascot_firebase-logo.png" width="27" title="react logo">*Firebase* &nbsp;</span> database storage system, and the repository can be found on the *Github* link and *Vercel*.<br/>
 Good Luck !!!
 
 ##  :computer: <span style="color:78909C; font-weight:500" id="installation">Installation</span>
@@ -27,28 +27,24 @@ Good Luck !!!
 2. Run the server
      - Run the server before can be used
   ```
-    npm start
+    npx next dev
   ```
-3. Server will auto-run
-   - wait a few seconds, the first time the server needs more time than usual.
+3. Server will run in console:
+   - wait a few seconds, the first time the server needs more time than usual, just click on 
 ```
-  On Your Network:  http://192.168.0.16:3000  or  https://assignment3-eugeniu-ceban.netlify.app/dashboard
+  http://localhost:3000
 ```
 
 ## :gear: <span style="color:81C784; font-weight:500" id="setup">Setup</span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;The use of this web page aims to meet all the expectations of our customers. It is extremely easy to control and use.
-At the launch of this project, the login page with the client's <span style="color:#FF88F8; font-weight:700">email</span> and <span style="color:#9DFF79; font-weight:700">password</span> will be displayed. To access the main page of this online store it is necessary to use the email <span style="color:red; font-weight:700">"jim@home.com"</span> and the password <span style="color:#FF6969; font-weight:700">"123456"</span>. Without these elements access is forbidden. Then the user just must press the enter button and then he will be redirected to the main/dashboard page of the web page which will present all the customer's products.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;In the next section, the complete web page with the three essential elements is presented. At the top is the navigation bar with the company logo and four other buttons. Only the *`"sign out"`* button works. On the left side can be identified the sidebar menu with with the two active buttons *`"Add New Product Panel"`* and *`"View All Products Panels"`*. And finally, the product panels will be presented at the center of the page.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Of course, this project also provides the user with a `404 page` in case of errors or indefinite access. On this page, the user will be able to see the notification that he has accessed the wrong link. Also, on this page, the user will be able to access the `"Back to Login Page"` or `"Back to Dashboard"` button to get back to the login page or dashboard pages of this website.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;In elaborating this task, I fulfilled all the conditions required by the teacher. At the time of launching the page, the customer will receive the `"Dashboard"` page with 3 products that have been read from the `"Firebase"` database. Each product will contain the name of the product, its price, a description of the product, and a `"Buy"` button to give the customer the opportunity to purchase that product. The next step is to scale and transfer the product selected by the customer to the payment process stage.
+  Here the customer will have the opportunity to enter personal and bank details to complete the payment process. After entering the correct data in all the fields required by our store, the client will appear the `"Buy"` button. At this time the bank and personal data will be transmitted to the `"Stripe"` server where they will be processed.<br/>
 <br/>
 
 >## :hammer_and_wrench: New Implementation
 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;In this assessment 4, I completed the product write functionality and implement the read functionality to view all products panes. The first step is to create a product and save it to the <span style="color: #FF9C0B; font-weight:600; font-size: 1.2rem"> <img src="https://www.gameartguppy.com/wp-content/uploads/2019/04/mascot_firebase-logo.png" width="27" title="react logo">Firebase &nbsp;</span> virtual database. The image of the product in the "Picture" folder will also be saved here. Also, in this assessment, I developed the default dashboard panel, which displays all products to the user. This product card will display the product image, the product price, and the product description.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;After finishing the product creation, the application will automatically provide the customer with the option to create a new product or to see all the orders created so far. The customer will be able to access the next decision by pressing the two buttons.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;The user of the dashboard has the opportunity to add a new product. To access the product editor, I provide a link in the sidebar to the "Add New Product Panel". This panel shows the loading interface for a new product along with a live preview of the product as it is created.
-In this task was provided to the user with a submit button that will write the data to the Realtime Database and store the image in Firebase Storage. As soon as the submit button is clicked switch the UI using conditional rendering to show the upload/write status. When the data has been saved, update the UI to confirm to the user that data was successfully written and provided to the user the option of returning to the dashboard route.
+&nbsp;&nbsp;&nbsp;&nbsp;In this assessment 5, I completed the product write functionality and implement the read functionality to view minimum 3 products panes. The first step is to read the data from <span style="color: #FF9C0B; font-weight:600; font-size: 1.2rem"> <img src="https://www.gameartguppy.com/wp-content/uploads/2019/04/mascot_firebase-logo.png" width="27" title="react logo">Firebase &nbsp;</span> virtual database to present to the client. This theft and presentation of products will only be possible via "UID". Thanks to this unique id we can identify each product without having conflict with other cards. Data processing and theft takes place at a relative speed and is protected by a single secure key that is not published anywhere.
+The main purpose of this payment process is to offer the customer the opportunity to easily and easily access all the products of our online store. We want our licenses to be fully satisfied and to recommend our products to other new members.
 <br/>
 <br/>
 
